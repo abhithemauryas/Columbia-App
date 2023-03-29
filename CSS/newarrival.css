@@ -1,0 +1,36 @@
+.home_p_tag{
+   margin-left: 3%;
+   padding-top: 9%; 
+}
+.arrival_text_marg{
+   padding-top: 1%;  
+   font-size: 15px;
+   margin-left: 3%;
+}
+.gender_checkbox{
+   padding-top: 1%; 
+   width: 15%;
+   margin-left: 3%;
+}
+.veh{
+   /* border: 2px solid black; */
+  font-size: 55px;
+}
+#veh{
+   appearance: none;
+   background-color: #fff;
+   margin-top: 12px;
+   
+   /* font: inherit; */
+   /* color: currentColor; */
+   width: 1.15em;
+   height: 1.15em;
+   border: 0.15em solid currentColor;
+   border-radius: 0.1em;
+   transform: translateY(-0.075em);
+ }
+ .gender_checkbox>h5{
+   margin-top: 11%;
+   padding-bottom: 6%;
+ }
+ 
