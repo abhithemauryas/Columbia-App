@@ -1,0 +1,307 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0%;
+}
+.container{
+  margin-top: 90px;
+ 
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn:hover {
+  background-color: rgb(203, 201, 201);
+}
+.Up_To_60_Off{
+  padding-top: 8%;
+  width: 30%;
+  margin: auto;
+ 
+ 
+}
+.Up_To_60_Off>img{
+  text-align: center;
+  margin-left: 38%;
+}
+.Up_To_60_Off>h1{
+  font-size: 40px;
+  text-align: center;
+}
+.Up_To_60_Off>p{
+  text-align: center;
+  font-size: 20px;
+}
+.Up_To_60_Off>button{
+  display: block;
+  margin: auto;
+  padding: 10px 24px;
+  background-color: black;
+  color: white;
+ 
+}
+.Up_To_60_Off>a{
+  margin-left: 42%;
+ padding-top: -13px;
+ color: black;
+}
+#Seasonal_Essentials_pic{
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+.Seasonal_Essentials_h1{
+  margin-left: 8%;
+}
+#Seasonal_Essentials_pic>div>img{
+  width: 95%;
+}
+#Seasonal_Essentials_pic>div>h5{
+  text-align: center;
+}
+.Greater_reward{
+  padding-top: 8%;
+  width: 40%;
+  margin: auto;
+ 
+}
+.Greater_reward>img{
+  width: 150px;
+  margin-left:30%;
+}
+.Greater_reward>p{
+ font-size: 14px;
+ text-align: center;
+ padding: 12px 24px;
+}
+.Greater_reward>button{
+  padding: 9px 24px;
+  margin-left:15%;
+  color: white;
+  background-color: black;
+ }
+ .columbia_scene_pic>img{
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 5%;
+ }
+ .Greater_reward_2>h1{
+  text-align: center;
+  height: 40px;
+  margin-top: 3%;
+  font-weight: 1000;
+ 
+}
+ 
+ .Greater_reward_2>p{
+  font-size: 14px;
+  text-align: center;
+  padding: 12px 24px;
+ }
+ .Greater_reward_2>button{
+  padding: 9px 34px;
+  margin: auto;
+  display: block;
+  color: white;
+  background-color: black;
+ }
+ .shoes_moving_pic>{
+ 
+  margin: auto;
+ }
+ .shoes_moving_pic>img{
+  margin-left: 10%;
+  width: 80%;
+  height: 500px;
+  margin-top: 5%;
+ 
+ }
+ .Featured_Favorites{
+  margin-left: 10%;
+  margin-bottom: -50px;
+ }
+ .Trial_ready_pic{
+  
+  display: flex;
+  width: 80%;
+  margin: auto;
+ }
+ .Trial_ready_pic>div>img{
+  margin-top: 2%;
+  width: 98%;
+ }
+ .How_Do_You_Play_h1{
+  margin-top: 3%;
+  margin-left: 9%;
+  font-weight: bolder;
+ }
+ #How_Do_You_Play{
+  padding-top: 2%;
+  display: flex;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding-left: 4%;
+ }
+ #How_Do_You_Play>div>img{
+  width: 96%;
+
+ }
+ #How_Do_You_Play>div>h5{
+  text-align: center;
+}
+.Greater_reward_2_ptag{
+  margin-top: 3%;
+  
+}
+/* --------------------see your out there part------------------*/
+.class{
+  display: flex;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 22%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-left: 2.5%;
+  /* */
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+.container>p>a{
+  color: black;
+}
+
+/* -----------------------------------------------*/
+#contact_etc{
+  display: flex;
+  margin: auto;
+}
+#contact_etc>div{
+  
+  margin: auto;
+}
+.Greater_reward_last{
+  padding-top: 5%;
+  width: 100%;
+  margin: auto;
+ margin-top: 5%;
+  background-color: #333333;
+}
+.Greater_reward_last>div>img{
+   display: flex;
+   align-items: center;
+   margin-left: 35%;
+   border-radius: 8%;
+}
+.Greater_reward_last>p{
+ font-size: 14px;
+ text-align: center;
+ padding: 12px 24px;
+ color: white;
+}
+.Greater_reward_last>h1{
+  color: white;
+  text-align: center;
+  
+ }
+ .joinid1{
+  margin-left: 43%;
+  color: white;
+ }
+ .joinid{
+  margin-left: 3%;
+  color: white;
+ }
+
+ /* -------------About_Section----------------- */
+ #About_section_point{
+  margin-top: 3%;
+  display: flex;
+  color: white;
+ }
+ #About_section_point>div{
+  margin: auto;
+ }
+ .About_shop{
+  display: flex;
+ }
+ .About_shop>div{
+ margin: auto;
+ }
+ #about_space>p{
+  margin-top: 3%;
+ }
+ #about_space2{
+  padding-left: 5%;
+ }
+ #about_space2>p{
+  padding-top: 5%;
+  margin-top: 3%;
+  padding-left: 5%;
+
+ }
+ .For_email_id{
+  padding: 17px 140px;
+
+ }
+ #connect_us_point>p{
+  margin-top: 3%;
+  font-size: 12px;
+ }
+ #connect_us_point>h4{
+  margin-top: 6%
+ }
+ #connect_us_point>a{
+  margin-top: 10%;
+  color: white;
+ }
+ #©2009-2023{
+  margin-top: 2%;
+  color: white;
+  font-size: 12px;
+  margin-left: 3%;
+ }
+#Terms_of_Use>p{
+  margin-top: 1%;
+  color: white;
+  font-size: 12px;
+  margin-left: 3%;
+  height: 40px;
+}
+
+
+
