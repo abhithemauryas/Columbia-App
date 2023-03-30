@@ -19,8 +19,8 @@
         <div class="new_icon">
             <i class="fa-solid fa-circle-question"></i>
             <i class="fa-solid fa-location-dot"></i>
-            <i class="fa-solid fa-person-dress"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+           <i class="fa-solid fa-person-dress"><a href="signup.html"></a></i>
+            <i class="fa-solid fa-cart-shopping"><a href="cart.html"></a></i>
     
         </div>
     </div>
@@ -29,14 +29,14 @@
 <!-- ------------------------dropdown-section------------------------------------>
 <div id="dropdown_section">
     <div>
-        <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30143404/48-768x591.png" alt="">
+        <a href="index.html"><img src="https://logos-world.net/wp-content/uploads/2020/12/Columbia-Emblem.png" class="logo_clombia"></a>
     </div>
     <div>
         <div class="dropdown" style="float:left;">
             <button class="dropbtn">Men</button>
             <div class="dropdown-content" style="left:0;">
                 <a href="#">Sale</a>
-                <a href="#">New Arrivals</a>
+                <a href="newarrival.html">New Arrivals</a>
                 <a href="#">Featured</a>
                 <a href="#">Jacket & Vents</a>
                 <a href="#">Fleece</a>
@@ -51,7 +51,7 @@
         <button class="dropbtn">Women</button>
         <div class="dropdown-content" style="left:0;">
             <a href="#"> Sale</a>
-            <a href="#">New Arrivals</a>
+            <a href="newarrival.html">New Arrivals</a>
             <a href="#">Featured</a>
             <a href="#">Jacket & Vents</a>
             <a href="#">Fleece</a>
@@ -64,7 +64,7 @@
         <button class="dropbtn">Kides</button>
         <div class="dropdown-content" style="left:0;">
             <a href="#"> Sale</a>
-            <a href="#">New Arrivals</a>
+            <a href="newarrival.html">New Arrivals</a>
             <a href="#">Featured</a>
             <a href="#">Jacket & Vents</a>
             <a href="#">Fleece</a>
@@ -105,7 +105,7 @@
     <div class="dropdown" style="float:left;">
         <button class="dropbtn">Featured</button>
         <div class="dropdown-content" style="left:0;">
-            <a href="#">New Arrivals</a>
+            <a href="newarrival.html">New Arrivals</a>
             <a href="#">Collections</a>
             <a href="#">College Fan Gear</a>
             <a href="#">Jacket Finder</a>
@@ -125,7 +125,7 @@
 
         </div>
     </div>
-    <input type="search" placeholder="Search" class="Drop_search">
+    <input type="search" placeholder="Search" class="Drop_search" onkeypress="findme()">
 </div>
 <!-- ------------------------dropdown-section-End------------------------------------ -->
  <div class="home_p_tag"><p>Home</p></div>
@@ -200,3 +200,19 @@
  </div>
 </body>
 </html>
+<script>
+    function findme(){
+     if(event.key==="Enter"){
+         let searchbar=document.querySelector(".Drop_search").value
+         if(searchbar=="newarrival"){
+             window.location.href="newarrival.html"
+         }else if(searchbar=="cart"){
+             window.location.href="cart.html"
+         }else if(searchbar=="signup"){
+             window.location.href="signup.html"
+         }else if(searchbar=="home"){
+             window.location.href="index.html"
+         }
+     }
+    }
+ </script>

@@ -34,7 +34,7 @@
   text-align: center;
   font-size: 20px;
 }
-.Up_To_60_Off>button{
+.Up_To_60_Off>a>button{
   display: block;
   margin: auto;
   padding: 10px 24px;
@@ -76,7 +76,13 @@
  text-align: center;
  padding: 12px 24px;
 }
-.Greater_reward>button{
+.Greater_reward>a>button{
+  padding: 9px 24px;
+  margin-left:15%;
+  color: white;
+  background-color: black;
+ }
+ .Greater_reward>button{
   padding: 9px 24px;
   margin-left:15%;
   color: white;
@@ -302,6 +308,74 @@ html {
   margin-left: 3%;
   height: 40px;
 }
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #dropdown_section {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+  #dropdown_sectiont {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .Greater_reward  {
+    width: 100%;
+  }
+  #Seasonal_Essentials_pic {
+    width: 100%;
+  }
+  .res_pict {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  #dropdown_section, .container, .Greater_reward,#Seasonal_Essentials_pic, .res_pic {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  #Seasonal_Essentials_pic {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  #How_Do_You_Play {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  #About_section_point {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .Greater_reward_last {
+    width: 100%;
+    display: block;
+  }
+}
 
 
 
+
+@media screen and (max-width: 650px) {
+  #dropdown_section {
+    width: 100%;
+    display: block;
+  }
+}

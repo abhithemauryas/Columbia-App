@@ -11,6 +11,8 @@
    padding-top: 1%; 
    width: 15%;
    margin-left: 3%;
+   display: block;
+  /* position: relative; */
 }
 .veh{
    /* border: 2px solid black; */
@@ -20,14 +22,15 @@
    appearance: none;
    background-color: #fff;
    margin-top: 12px;
-   
-   /* font: inherit; */
+   /* overflow: hidden; */
+/* 
+   font: inherit; */
    /* color: currentColor; */
    width: 1.15em;
    height: 1.15em;
    border: 0.15em solid currentColor;
    border-radius: 0.1em;
-   transform: translateY(-0.075em);
+   /* transform: translateY(-0.075em); */
  }
  .gender_checkbox>h5{
    margin-top: 11%;

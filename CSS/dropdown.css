@@ -20,8 +20,14 @@
    margin-top: 5px;  
 }
 .new_icon>i{
-  margin-left: 20px;
+  font-size: 18px;
+  margin-left: 15px;
+  padding-right: -5px;
 }
+/* .new_icon>a>i{
+  font-size: 15px;
+  margin-left: 18px;
+} */
  
 #new_arrival_icon a {
     float: left;
@@ -34,60 +40,33 @@
     font-size: 17px;
   }
 
-.dropbtn {
-    background-color: #333333;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-top: 15px;
-    
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: rgb(141, 49, 49);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #333333;}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #333333;}
-
+/* img{
+  width: 100%;
+} */
 #dropdown_section{
     display: flex;
     background-color: #333333;
     height: 90px;
     margin-top: 38px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
    
 }
+.logo_clombia{
+  
+  /* padding-bottom:15px ; */
+  width: 190px;
+  height: 85px;
+  margin-top: -6%;
+ 
+}
 #dropdown_section a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -96,15 +75,50 @@
 #dropdown_section>div>img{
   width: 190px;
   height: 100px;
-}
+} 
 .Drop_search{
-    height: 35px;
+ 
+    height: 32px;
     width: 190px;
-    display: block;
-    margin-left: 30%;
+    display: block; 
+     margin-left: 30%;
     margin-top: 27px;
-   
+    color: white;
     background-color: #333333;
     border: 1px solid white;
+} 
+.dropbtn {
+  margin-top: 18px ;
+  background-color: #333333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #333333;}

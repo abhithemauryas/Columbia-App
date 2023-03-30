@@ -144,6 +144,7 @@ body {
 .belowcont {
     background-color: #FAFAFA;
     display: flex;
+    margin-top: 10%;
 }
 
 .left {
