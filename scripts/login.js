@@ -1,4 +1,4 @@
-document.querySelector("form").addEventListener("subit",(e)=>{
+document.querySelector("form").addEventListener("submit",(e)=>{
 e.preventDefault()
 let email=document.querySelector("#useremail").value
 let password=document.querySelector("userpassword").value
