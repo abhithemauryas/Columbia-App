@@ -7,6 +7,8 @@ const UserSchema=mongoose.Schema({
     email:String,
     number:Number
 
+},{
+    versionkey:false
 })
 
 const UserModel=mongoose.model("user",UserSchema)
