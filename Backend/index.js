@@ -1,21 +1,15 @@
 const express=require("express")
 const mongoose =require("mongoose")
 const {connection}=require("./Config/db")
+const {arrivalRoute} = require("./Router/newarrival")
 const {userRouter}=require("./Router/user")
 require('dotenv').config()
-
+const cors=require("cors")
 const app=express()
-
+app.use(cors())
 app.use(express.json())
-
 app.use(userRouter)
-
-// app.get("/user",(req,res)=>{
-//     res.send("Hello")
-//     console.log("Hello")
-
-// })
-
+app.use(arrivalRoute)
 
 
 app.listen(process.env.port,async()=>{

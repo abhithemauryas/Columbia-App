@@ -2,6 +2,7 @@
     font-weight: 500;
     margin-left: 2%;
     font-size: 18px;
+    color: black;
 }
 #new_arrival_icon{
     display: flex;
@@ -23,11 +24,10 @@
   font-size: 18px;
   margin-left: 15px;
   padding-right: -5px;
+  /* color: black;
+  border: 1px solid red; */
 }
-/* .new_icon>a>i{
-  font-size: 15px;
-  margin-left: 18px;
-} */
+
  
 #new_arrival_icon a {
     float: left;

@@ -213,11 +213,12 @@ html {
 
 /* -----------------------------------------------*/
 #contact_etc{
+  padding-top: 4%;
   display: flex;
   margin: auto;
 }
 #contact_etc>div{
-  
+  margin-top: 3%;
   margin: auto;
 }
 .Greater_reward_last{
@@ -230,8 +231,9 @@ html {
 .Greater_reward_last>div>img{
    display: flex;
    align-items: center;
-   margin-left: 35%;
-   border-radius: 8%;
+   margin-left: 37%;
+   border-radius: 5%;
+   width: 340px;
 }
 .Greater_reward_last>p{
  font-size: 14px;

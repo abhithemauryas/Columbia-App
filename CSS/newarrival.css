@@ -1,3 +1,7 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0%;
+}
 .home_p_tag{
    margin-left: 3%;
    padding-top: 9%; 
@@ -8,9 +12,10 @@
    margin-left: 3%;
 }
 .gender_checkbox{
+   /* border: 1px solid red;  */
    padding-top: 1%; 
-   width: 15%;
-   margin-left: 3%;
+   width: 250px;
+   margin-left: 20%;
    display: block;
   /* position: relative; */
 }
@@ -36,4 +41,100 @@
    margin-top: 11%;
    padding-bottom: 6%;
  }
+ .api_img{
+   width: 260px;
+ }
+ .api_div{
+   /* border: 1px solid red; */
+   width: 100%;
+
+ }
+  #bac_data{
+   /* border: 1px solid red; */
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 80%;
+   gap: 12px;
+   padding-left: 2%;
+ } 
+ /* .image_pic1{
+   
+   width: 240px;
+   height: 220px;
+ } */
+ /* .p_tag_fir_disc{
+   font-size: 20px;
+ } */
+#for_prodeuct_grid{
+  
+   display: flex;
+   justify-content: space-between;
+   /* grid-template-columns: repeat(4,1fr); */
+} 
+/* #checkbox_point{
+   /* border: 1px solid red;  */
+
+@media only screen and (max-width:800px) {
  
+  #dropdown_section {
+    width: 80%;
+    padding: 0;
+  }
+
+  #bac_data{
+    width: 100%;
+    padding: 0;
+  
+  }
+  .gender_checkbox{
+    width: 100%;
+  }
+  #checkbox_point{
+     width: 100%;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  #dropdown_section,.api_div,#checkbox_point, .res_pic{
+    width: 100%;
+  }
+    #bac_data {
+    width: 100%;
+     display: block;
+  }
+}
+@media screen and (max-width: 750px) {
+  #bac_data {
+    width: 100%;
+     display: block;
+  }
+  .gender_checkbox{
+    width: 100%; 
+  }
+   #checkbox_point{
+     width: 100%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .api_div{
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+    #bac_data {
+    width: 100%;
+     display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  #bac_data {
+    width: 100%;
+    display: block;
+  }
+}
+.cartbtn{
+  background-color: black;
+  color: white;
+  padding: 6px 22px;
+}
