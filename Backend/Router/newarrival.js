@@ -10,10 +10,10 @@ const {women}=require("../women")
 arrivalRoute.post("/post",async(req,res)=>{
     try {
         let data=await arrivalModel.insertMany(arrnew)
-        res.send({"msg":"Data Posted"})
+        res.status(200).send({"msg":"Data Posted"})
     } catch (error) {
         console.log(error)
-        res.send({"msg":"Something went Wrong"})
+        res.status(400).send({"msg":"Something went Wrong"})
         
     }
 })
@@ -21,21 +21,21 @@ arrivalRoute.get("/get",async(req,res)=>{
     try {
         let data = await arrivalModel.find()
         console.log(data)
-        res.send({"mag":"data Posted",data})
+        res.status(200).send({"mag":"data Posted",data})
 
     } catch (error) {
         console.log(error)
-        res.send({"msg":"Somethin Went Wrong"})
+        res.status(400).send({"msg":"Somethin Went Wrong"})
     }
 })
 //women
 arrivalRoute.post("/post/women",async(req,res)=>{
     try {
         let data=await WomenModel.insertMany(women)
-        res.send({"msg":"Data Posted"})
+        res.status(200).send({"msg":"Data Posted"})
     } catch (error) {
         console.log(error)
-        res.send({"msg":"Something went Wrong"})
+        res.status(400).send({"msg":"Something went Wrong"})
         
     }
 })
@@ -44,11 +44,11 @@ arrivalRoute.get("/get/women",async(req,res)=>{
     try {
         let data = await WomenModel.find()
         console.log(data)
-        res.send({"mag":"data Posted",data})
+        res.status(200).send({"mag":"data Posted",data})
 
     } catch (error) {
         console.log(error)
-        res.send({"msg":"Somethin Went Wrong"})
+        res.status(400).send({"msg":"Somethin Went Wrong"})
     }
 })
 
@@ -62,7 +62,7 @@ arrivalRoute.get("/cart/get",async(req,res)=>{
       res.send({"msg":"your data is addeed in cart",data})
     } catch (error) {
         console.log(error);
-        res.send({"msg":"something went wrong"});
+        res.status(400).send({"msg":"something went wrong"});
     }
 })
 arrivalRoute.post("/cart/post",async(req,res)=>{
@@ -73,7 +73,7 @@ arrivalRoute.post("/cart/post",async(req,res)=>{
         console.log(data)
     } catch (error) {
         console.log(error);
-        res.send({"msg":"something went wrong"});
+        res.status(400).send({"msg":"something went wrong"});
     }
 });
 module.exports={

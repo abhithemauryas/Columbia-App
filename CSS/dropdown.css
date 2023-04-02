@@ -15,17 +15,16 @@
 }
 
 .new_icon{
- padding-left: 75%;
+ padding-left: 70%;
+ 
 }
 #new_arrival_icon>div>p{
    margin-top: 5px;  
 }
 .new_icon>i{
   font-size: 18px;
-  margin-left: 15px;
-  padding-right: -5px;
-  /* color: black;
-  border: 1px solid red; */
+  margin-left: 5px;
+ 
 }
 
  

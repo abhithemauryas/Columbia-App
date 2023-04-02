@@ -15,7 +15,7 @@ userRouter.post("/signup",async(req,res)=>{
 
         })
     } catch (error) {
-        res.status(400).send({ "msg": error.message }) 
+        res.status(400).status(400).send({ "msg": error.message }) 
     }
 })
 userRouter.post("/login",async(req,res)=>{

@@ -1,22 +1,7 @@
-function findme(){
-    if(event.key==="Enter"){
-        let searchbar=document.querySelector(".Drop_search").value
-        if(searchbar=="newarrival"){
-            window.location.href="newarrival.html"
-        }else if(searchbar=="cart"){
-            window.location.href="cart.html"
-        }else if(searchbar=="signup"){
-            window.location.href="signup.html"
-        }else if(searchbar=="home"){
-            window.location.href="index.html"
-        }
-    }
-   }
-
 fethdata()
 async function fethdata(){
     try {
-        let response=await fetch("http://localhost:7900/get");
+        let response=await fetch("http://localhost:7900/get/women");
         if(response.ok){
             let res=await response.json();
             console.log(res);
@@ -27,7 +12,7 @@ async function fethdata(){
     }
 }
 
-let container =document.getElementById("bac_data")
+let containe =document.getElementById("bac_data")
 function displayProduct(data){
     data.forEach((element)=>{
         let card =document.createElement("div")
@@ -62,7 +47,7 @@ function displayProduct(data){
         price.innerText=element.price
        
         card.append(image,div,gender,price,btn)
-        container.append(card)
+        containe.append(card)
 
     })
 }
@@ -87,6 +72,3 @@ async function  cartfetch(element){
         console.log(error);
     }
 }
-
-
-//
