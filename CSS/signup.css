@@ -101,5 +101,12 @@
     font-size: 20px;
     font-weight: bold;
   }
+  @media screen and (max-width: 650px) {
+    #form {
+      width: 100%;
+      display: block;
+    }
+    /* container */
+  }
   
   
